@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="24dp"
+    android:layout_margin="10dp"
+    android:id="@+id/cardItem"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/pdtImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/v3_0282119"
+            android:layout_margin="10dp"
+            app:shapeAppearanceOverlay="@style/softCorner" />
+
+        <TextView
+            android:id="@+id/pdtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="pdt Name"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
