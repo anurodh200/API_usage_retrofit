@@ -53,4 +53,6 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
     //picasso for loading images
     implementation("com.squareup.picasso:picasso:2.8")
+    //Notification
+    implementation("androidx.core:core-ktx:1.15.0")
 }
